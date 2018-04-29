@@ -1,0 +1,665 @@
+#trains
+
+insert into train values(1,'Colombo-Commiuter-1','1.jpg');
+insert into train values(2,'Colombo-Commiuter-2','2.jpg');
+insert into train values(3,'Rail-bus-1','3.jpg');
+insert into train values(4,'Rail-bus-2','4.jpg');
+insert into train values(6,'Samudra devi','6.jpg');
+insert into train values(7,'Galu Kumari','7.jpg');
+insert into train values(8,'Ruhunu Kumari','8.jpg');
+
+#class
+
+insert into class values(1,'1st Class');
+insert into class values(2,'2nd Class');
+insert into class values(3,'3rd Class');
+
+#prices
+
+insert into price values(1,1,15.00);
+insert into price values(2,1,2.00);
+insert into price values(3,1,0.25);
+
+#types
+
+insert into type values(1,'Night Mail');
+insert into type values(2,'Office');
+insert into type values(3,'Intercity');
+insert into type values(4,'Intercity-AC');
+insert into type values(5,'Slow');
+insert into type values(6,'Express');
+
+
+#Costal Area trains
+
+insert into train_type values(1,1,2,'6:00 am','7:00 am');
+insert into train_type values(2,2,2,'6:30 am','8:00 am');
+insert into train_type values(3,8,6,'6:21 am','9:13 am');
+insert into train_type values(4,1,5,'10:00 am','11:00 am');
+insert into train_type values(5,2,5,'11:30 am','1:30 pm');
+insert into train_type values(6,1,2,'3:00 pm','5:00 pm');
+insert into train_type values(7,2,2,'5:30 pm','6:30 pm');
+insert into train_type values(8,8,1,'5:21 pm','8:13 pm');
+insert into train_type values(9,1,6,'5:40 pm','7:24 pm');
+insert into train_type values(10,2,2,'7:01 pm','8:30 pm');
+
+#stations-cost
+
+insert into station values(16,'Kalutara North',39.86);
+insert into station values(17,'Wadduwa',32.46);
+insert into station values(18,'Panadura',26.24);
+insert into station values(19,'Moratuwa',18.94);
+insert into station values(20,'Rathmalana',14.01);
+insert into station values(21,'Mount Lavinia',12.21);
+insert into station values(22,'Dehiwala',9.95);
+insert into station values(23,'Wallewatta',7.24);
+insert into station values(24,'Bambalapitiya',5.12);
+insert into station values(25,'Kollupitiya',3.10);
+insert into station values(26,'Colombo Fort',0.00);
+
+
+insert into station values(1,'Kalutara South',41.85);
+
+insert into station values(2,'Payagala South',49.25);
+insert into station values(3,'Beruwala',54.32);
+insert into station values(4,'Aluthgama',59.66);
+insert into station values(5,'Induruwa',64.93);
+insert into station values(6,'Ahungalle',73.98);
+insert into station values(7,'Balapitiya',78.20);
+insert into station values(8,'Ambalangoda',83.12);
+insert into station values(9,'Hikkaduwa',95.12);
+insert into station values(10,'Galle',113.88);
+insert into station values(11,'Koggala',129.1);
+insert into station values(12,'Ahangama',134.15);
+insert into station values(13,'Weligama',142.82);
+insert into station values(14,'Kamburugamuwa',151.35);
+insert into station values(15,'Matara',156.81);
+
+#===============================================================
+
+insert into train_station values(1,1,'5:57 am','6:00 am',5,'am');
+insert into train_station values(1,16,'6:02 am','6:04 am',6,'am');
+insert into train_station values(1,17,'6:08 am','6:10 am',6,'am');
+insert into train_station values(1,18,'6:14 am','6:16 am',6,'am');
+insert into train_station values(1,19,'6:19 am','6:21 am',6,'am');
+insert into train_station values(1,20,'6:26 am','6:28 am',6,'am');
+insert into train_station values(1,21,'6:31 am','6:33 am',6,'am');
+insert into train_station values(1,22,'6:37 am','6:39 am',6,'am');
+insert into train_station values(1,23,'6:42 am','6:44 am',6,'am');
+insert into train_station values(1,24,'6:47 am','6:49 am',6,'am');
+insert into train_station values(1,25,'6:53 am','6:55 am',6,'am');
+insert into train_station values(1,26,'7:00 am','no',7,'am');
+
+
+insert into train_station values(2,4,'6:27 am','6:30 am',6,'am');
+insert into train_station values(2,3,'6:34 am','6:37 am',6,'am');
+insert into train_station values(2,2,'6:41 am','6:43 am',6,'am');
+insert into train_station values(2,1,'6:47 am','6:49 am',6,'am');
+insert into train_station values(2,16,'6:53 am','6:55 am',6,'am');
+insert into train_station values(2,17,'7:00 am','7:02 am',7,'am');
+insert into train_station values(2,18,'7:07 am','7:09 am',7,'am');
+insert into train_station values(2,19,'7:14 am','7:16 am',7,'am');
+insert into train_station values(2,20,'7:21 am','7:23 am',7,'am');
+insert into train_station values(2,21,'7:28 am','7:30 am',7,'am');
+insert into train_station values(2,22,'7:34 am','7:36 am',7,'am');
+insert into train_station values(2,23,'7:40 am','7:42 am',7,'am');
+insert into train_station values(2,24,'7:48 am','7:50 am',7,'am');
+insert into train_station values(2,25,'7:54 am','7:56 am',7,'am');
+insert into train_station values(2,26,'8:00 am','no',8,'am');
+
+
+
+insert into train_station values(3,15,'6:18 am','6:21 am',6,'am');
+insert into train_station values(3,10,'6:41 am','6:46 am',6,'am');
+insert into train_station values(3,8,'7:10 am','7:14 am',7,'am');
+insert into train_station values(3,4,'7:30 am','7:34 am',7,'am');
+insert into train_station values(3,1,'7:50 am','7:54 am',7,'am');
+insert into train_station values(3,18,'8:00 am','8:04 am',8,'am');
+insert into train_station values(3,19,'8:15 am','8:20 am',8,'am');
+insert into train_station values(3,22,'8:45 am','8:50 am',8,'am');
+insert into train_station values(3,26,'9:13 am','no',9,'am');
+
+
+
+insert into train_station values(4,26,'9:57 am','10:00 am',9,'am');
+insert into train_station values(4,25,'10:02 am','10:04 am',10,'am');
+insert into train_station values(4,24,'10:08 am','10:10 am',10,'am');
+insert into train_station values(4,23,'10:14 am','10:16 am',10,'am');
+insert into train_station values(4,22,'10:19 am','10:21 am',10,'am');
+insert into train_station values(4,21,'10:26 am','10:28 am',10,'am');
+insert into train_station values(4,20,'10:31 am','10:33 am',10,'am');
+insert into train_station values(4,19,'10:37 am','10:39 am',10,'am');
+insert into train_station values(4,18,'10:42 am','10:44 am',10,'am');
+insert into train_station values(4,17,'10:47 am','10:49 am',10,'am');
+insert into train_station values(4,16,'10:53 am','10:55 am',10,'am');
+insert into train_station values(4,1,'11:00 am','no',10,'am');
+
+
+
+insert into train_station values(5,26,'11:27 am','11:30 am',11,'am');
+insert into train_station values(5,25,'11:36 am','11:40 am',11,'am');
+insert into train_station values(5,24,'11:45 am','11:48 am',11,'am');
+insert into train_station values(5,23,'12:07 pm','12:09 pm',12,'pm');
+insert into train_station values(5,22,'12:13 pm','12:16 pm',12,'pm');
+insert into train_station values(5,21,'12:22 pm','12:24 pm',12,'am');
+insert into train_station values(5,20,'12:30 pm','12:34 pm',12,'pm');
+insert into train_station values(5,19,'12:42 pm','12:46 pm',12,'pm');
+insert into train_station values(5,18,'12:52 pm','12:56 pm',12,'pm');
+insert into train_station values(5,17,'1:00 pm','1:03 pm',1,'pm');
+insert into train_station values(5,16,'1:06 pm','1:08 pm',1,'pm');
+insert into train_station values(5,1,'1:12 pm','1:14 pm',1,'pm');
+insert into train_station values(5,2,'1:18 pm','1:20 pm',1,'pm');
+insert into train_station values(5,3,'1:24 pm','1:26 pm',1,'pm');
+insert into train_station values(5,4,'1:30 pm','no',1,'pm');
+
+
+
+
+insert into train_station values(6,26,'2:57 pm','3:00 pm',2,'pm');
+insert into train_station values(6,25,'3:05 pm','3:08 pm',3,'pm');
+insert into train_station values(6,24,'3:15 pm','3:20 pm',3,'pm');
+insert into train_station values(6,23,'3:26 pm','3:30 pm',3,'pm');
+insert into train_station values(6,22,'3:39 pm','3:41 pm',3,'pm');
+insert into train_station values(6,21,'3:50 pm','3:55 pm',3,'pm');
+insert into train_station values(6,20,'4:01 pm','4:04 pm',4,'pm');
+insert into train_station values(6,19,'4:13 pm','4:17 pm',4,'pm');
+insert into train_station values(6,18,'4:25 pm','4:29 pm',4,'pm');
+insert into train_station values(6,17,'4:37 pm','4:40 pm',4,'pm');
+insert into train_station values(6,16,'4:47 pm','4:50 pm',4,'pm');
+insert into train_station values(6,1,'5:00 pm','no',5,'pm');
+
+
+
+insert into train_station values(7,26,'5:27 pm','5:30 pm',5,'pm');
+insert into train_station values(7,25,'5:33 pm','5:34 pm',5,'pm');
+insert into train_station values(7,24,'5:37 pm','5:38 pm',5,'pm');
+insert into train_station values(7,23,'5:42 pm','5:43 pm',5,'pm');
+insert into train_station values(7,22,'5:47 pm','5:49 pm',5,'pm');
+insert into train_station values(7,21,'5:54 pm','5:55 pm',5,'pm');
+insert into train_station values(7,20,'5:58 pm','5:59 pm',5,'pm');
+insert into train_station values(7,19,'6:02 pm','6:03 pm',5,'pm');
+insert into train_station values(7,18,'6:06 pm','6:07 pm',6,'pm');
+insert into train_station values(7,17,'6:10 pm','6:11 pm',6,'pm');
+insert into train_station values(7,16,'6:14 pm','6:15 pm',6,'pm');
+insert into train_station values(7,1,'6:18 pm','6:19 pm',6,'pm');
+insert into train_station values(7,2,'6:21 pm','6:22 pm',6,'pm');
+insert into train_station values(7,3,'6:25 pm','6:26 pm',6,'pm');
+insert into train_station values(7,4,'6:30 pm','no',6,'pm');
+
+
+
+insert into train_station values(8,26,'5:19 pm','5:21 pm',5,'pm');
+insert into train_station values(8,25,'5:25 pm','5:27 pm',5,'pm');
+insert into train_station values(8,24,'5:29 pm','5:30 pm',5,'pm');
+insert into train_station values(8,23,'5:33 pm','5:34 pm',5,'pm');
+insert into train_station values(8,22,'5:38 pm','5:40 pm',5,'pm');
+insert into train_station values(8,21,'5:43 pm','5:44 pm',5,'pm');
+insert into train_station values(8,20,'5:47 pm','5:48 pm',5,'pm');
+insert into train_station values(8,19,'5:52 pm','5:54 pm',5,'pm');
+insert into train_station values(8,18,'6:00 pm','6:02 pm',6,'pm');
+insert into train_station values(8,17,'6:06 pm','6:08 pm',6,'pm');
+insert into train_station values(8,16,'6:13 pm','6:15 pm',6,'pm');
+insert into train_station values(8,1,'6:19 pm','6:21 pm',6,'pm');
+insert into train_station values(8,2,'6:26 pm','6:28 pm',6,'pm');
+insert into train_station values(8,3,'6:33 pm','6:35 pm',6,'pm');
+insert into train_station values(8,4,'6:40 pm','6:42 pm',6,'pm');
+insert into train_station values(8,5,'6:45 pm','6:46 pm',6,'pm');
+insert into train_station values(8,6,'6:50 pm','6:52 pm',6,'pm');
+insert into train_station values(8,7,'6:57 pm','6:59 pm',6,'pm');
+insert into train_station values(8,8,'7:04 pm','7:06 pm',7,'pm');
+insert into train_station values(8,9,'7:14 pm','7:16 pm',7,'pm');
+insert into train_station values(8,10,'7:23 pm','7:25 pm',7,'pm');
+insert into train_station values(8,11,'7:33 pm','7:35 pm',7,'pm');
+insert into train_station values(8,12,'7:43 pm','7:45 pm',7,'pm');
+insert into train_station values(8,13,'7:52 pm','7:55 pm',7,'pm');
+insert into train_station values(8,14,'8:03 pm','8:05 pm',8,'pm');
+insert into train_station values(8,15,'8:13 pm','no',8,'pm');
+
+
+
+insert into train_station values(9,1,'5:37 pm','5:40 pm',5,'pm');
+insert into train_station values(9,18,'6:00 pm','6:04 pm',6,'pm');
+insert into train_station values(9,19,'6:20 pm','6:24 pm',6,'pm');
+insert into train_station values(9,22,'6:40 pm','6:44 pm',6,'pm');
+insert into train_station values(9,24,'6:52 pm','6:55 pm',6,'pm');
+insert into train_station values(9,25,'7:13 pm','7:17 pm',7,'pm');
+insert into train_station values(9,26,'7:24 pm','no',7,'pm');
+
+
+
+insert into train_station values(10,26,'7:00 pm','7:01 pm',7,'pm');
+insert into train_station values(10,25,'7:10 pm','7:13 pm',7,'pm');
+insert into train_station values(10,24,'7:20 pm','7:21 pm',7,'pm');
+insert into train_station values(10,23,'7:39 pm','7:41 pm',7,'pm');
+insert into train_station values(10,22,'7:49 pm','7:51 pm',7,'pm');
+insert into train_station values(10,21,'7:57 pm','8:00 pm',7,'pm');
+insert into train_station values(10,20,'8:06 pm','8:08 pm',8,'pm');
+insert into train_station values(10,19,'8:13 pm','8:15 pm',8,'pm');
+insert into train_station values(10,18,'8:18 pm','8:20 pm',8,'pm');
+insert into train_station values(10,17,'8:23 pm','8:24 pm',8,'pm');
+insert into train_station values(10,16,'8:26 pm','8:26 pm',8,'pm');
+insert into train_station values(10,1,'8:30 pm','no',8,'pm');
+
+#===============================================================
+
+select train.tid,train_name,arival,depature from train,train_type,train_station where train.tid=train_type.tid and train_type.trtpid=train_station.trtpid and  train_station.trtpid in(select trtpid from train_station where (hour between 5 and 10 ) and am_pm='am') and sid=23 group by train_station.trtpid;
+
+#================================================================
+
+
+insert into room values(1,1,2,'A');
+insert into room values(2,1,2,'B');
+insert into room values(3,1,3,'A');
+insert into room values(4,1,3,'B');
+
+insert into seat values(1,1);
+insert into seat values(2,1);
+insert into seat values(3,1);
+insert into seat values(4,1);
+insert into seat values(5,1);
+
+insert into seat values(6,2);
+insert into seat values(7,2);
+insert into seat values(8,2);
+insert into seat values(9,2);
+insert into seat values(10,2);
+
+insert into seat values(11,3);
+insert into seat values(12,3);
+insert into seat values(13,3);
+insert into seat values(14,3);
+insert into seat values(15,3);
+
+insert into seat values(16,4);
+insert into seat values(17,4);
+insert into seat values(18,4);
+insert into seat values(19,4);
+insert into seat values(20,4);
+
+
+insert into room values(5,2,2,'A');
+insert into room values(6,2,2,'B');
+insert into room values(7,2,3,'A');
+insert into room values(8,2,3,'B');
+
+insert into seat values(21,5);
+insert into seat values(22,5);
+insert into seat values(23,5);
+insert into seat values(24,5);
+insert into seat values(25,5);
+
+insert into seat values(26,6);
+insert into seat values(27,6);
+insert into seat values(28,6);
+insert into seat values(29,6);
+insert into seat values(30,6);
+
+insert into seat values(31,7);
+insert into seat values(32,7);
+insert into seat values(33,7);
+insert into seat values(34,7);
+insert into seat values(35,7);
+
+insert into seat values(36,8);
+insert into seat values(37,8);
+insert into seat values(38,8);
+insert into seat values(39,8);
+insert into seat values(40,8);
+
+
+insert into room values(9,3,1,'A');
+insert into room values(10,3,1,'B');
+insert into room values(11,3,2,'A');
+insert into room values(12,3,2,'B');
+insert into room values(13,3,3,'A');
+insert into room values(14,3,3,'B');
+
+
+insert into seat values(41,9);
+insert into seat values(42,9);
+insert into seat values(43,9);
+insert into seat values(44,9);
+insert into seat values(45,9);
+
+insert into seat values(46,10);
+insert into seat values(47,10);
+insert into seat values(48,10);
+insert into seat values(49,10);
+insert into seat values(50,10);
+
+insert into seat values(51,11);
+insert into seat values(52,11);
+insert into seat values(53,11);
+insert into seat values(54,11);
+insert into seat values(55,11);
+
+insert into seat values(56,12);
+insert into seat values(57,12);
+insert into seat values(58,12);
+insert into seat values(59,12);
+insert into seat values(60,12);
+
+insert into seat values(61,13);
+insert into seat values(62,13);
+insert into seat values(63,13);
+insert into seat values(64,13);
+insert into seat values(65,13);
+
+insert into seat values(66,14);
+insert into seat values(67,14);
+insert into seat values(68,14);
+insert into seat values(69,14);
+insert into seat values(70,14);
+
+
+
+
+insert into room values(15,4,2,'A');
+insert into room values(16,4,2,'B');
+insert into room values(17,4,3,'A');
+insert into room values(18,4,3,'B');
+
+insert into seat values(71,15);
+insert into seat values(72,15);
+insert into seat values(73,15);
+insert into seat values(74,15);
+insert into seat values(75,15);
+
+insert into seat values(76,16);
+insert into seat values(77,16);
+insert into seat values(78,16);
+insert into seat values(79,16);
+insert into seat values(80,16);
+
+insert into seat values(81,17);
+insert into seat values(82,17);
+insert into seat values(83,17);
+insert into seat values(84,17);
+insert into seat values(85,17);
+
+insert into seat values(86,18);
+insert into seat values(87,18);
+insert into seat values(88,18);
+insert into seat values(89,18);
+insert into seat values(90,18);
+
+
+
+insert into room values(19,5,2,'A');
+insert into room values(20,5,2,'B');
+insert into room values(21,5,3,'A');
+insert into room values(22,5,3,'B');
+
+insert into seat values(91,19);
+insert into seat values(92,19);
+insert into seat values(93,19);
+insert into seat values(94,19);
+insert into seat values(95,19);
+
+insert into seat values(96,20);
+insert into seat values(97,20);
+insert into seat values(98,20);
+insert into seat values(99,20);
+insert into seat values(100,20);
+
+insert into seat values(101,21);
+insert into seat values(102,21);
+insert into seat values(103,21);
+insert into seat values(104,21);
+insert into seat values(105,21);
+
+insert into seat values(106,22);
+insert into seat values(107,22);
+insert into seat values(108,22);
+insert into seat values(109,22);
+insert into seat values(110,22);
+
+
+
+
+
+insert into room values(23,6,2,'A');
+insert into room values(24,6,2,'B');
+insert into room values(25,6,3,'A');
+insert into room values(26,6,3,'B');
+
+insert into seat values(111,23);
+insert into seat values(112,23);
+insert into seat values(113,23);
+insert into seat values(114,23);
+insert into seat values(115,23);
+
+insert into seat values(116,24);
+insert into seat values(117,24);
+insert into seat values(118,24);
+insert into seat values(119,24);
+insert into seat values(120,24);
+
+insert into seat values(121,25);
+insert into seat values(122,25);
+insert into seat values(123,25);
+insert into seat values(124,25);
+insert into seat values(125,25);
+
+insert into seat values(126,26);
+insert into seat values(127,26);
+insert into seat values(128,26);
+insert into seat values(129,26);
+insert into seat values(130,26);
+
+
+insert into room values(27,7,2,'A');
+insert into room values(28,7,2,'B');
+insert into room values(29,7,3,'A');
+insert into room values(30,7,3,'B');
+
+insert into seat values(131,27);
+insert into seat values(132,27);
+insert into seat values(133,27);
+insert into seat values(134,27);
+insert into seat values(135,27);
+
+insert into seat values(136,28);
+insert into seat values(137,28);
+insert into seat values(138,28);
+insert into seat values(139,28);
+insert into seat values(140,28);
+
+insert into seat values(141,29);
+insert into seat values(142,29);
+insert into seat values(143,29);
+insert into seat values(144,29);
+insert into seat values(145,29);
+
+insert into seat values(146,30);
+insert into seat values(147,30);
+insert into seat values(148,30);
+insert into seat values(149,30);
+insert into seat values(150,30);
+
+
+
+
+insert into room values(31,8,1,'A');
+insert into room values(32,8,1,'B');
+insert into room values(33,8,2,'A');
+insert into room values(34,8,2,'B');
+insert into room values(35,8,3,'A');
+insert into room values(36,8,3,'B');
+
+
+insert into sub_room values(1,31,1300.00,2);
+insert into sub_room values(2,31,1300.00,2);
+insert into sub_room values(3,31,1300.00,2);
+
+insert into sub_room values(4,32,1300.00,2);
+insert into sub_room values(5,32,1300.00,2);
+insert into sub_room values(6,32,1300.00,2);
+
+
+insert into seat values(156,33);
+insert into seat values(157,33);
+insert into seat values(158,33);
+insert into seat values(159,33);
+insert into seat values(160,33);
+
+insert into seat values(161,34);
+insert into seat values(162,34);
+insert into seat values(163,34);
+insert into seat values(164,34);
+insert into seat values(165,34);
+
+insert into seat values(166,35);
+insert into seat values(167,35);
+insert into seat values(168,35);
+insert into seat values(169,35);
+insert into seat values(170,35);
+
+insert into seat values(171,36);
+insert into seat values(172,36);
+insert into seat values(173,36);
+insert into seat values(174,36);
+insert into seat values(175,36);
+
+
+insert into room values(37,9,2,'A');
+insert into room values(38,9,2,'B');
+insert into room values(39,9,3,'A');
+insert into room values(40,9,3,'B');
+
+insert into seat values(176,37);
+insert into seat values(177,37);
+insert into seat values(178,37);
+insert into seat values(179,37);
+insert into seat values(180,37);
+
+insert into seat values(181,38);
+insert into seat values(182,38);
+insert into seat values(183,38);
+insert into seat values(184,38);
+insert into seat values(185,38);
+
+insert into seat values(186,39);
+insert into seat values(187,39);
+insert into seat values(188,39);
+insert into seat values(189,39);
+insert into seat values(190,39);
+
+insert into seat values(191,40);
+insert into seat values(192,40);
+insert into seat values(193,40);
+insert into seat values(194,40);
+insert into seat values(195,40);
+
+
+
+insert into room values(41,10,2,'A');
+insert into room values(42,10,2,'B');
+insert into room values(43,10,3,'A');
+insert into room values(44,10,3,'B');
+
+insert into seat values(196,41);
+insert into seat values(197,41);
+insert into seat values(198,41);
+insert into seat values(199,41);
+insert into seat values(200,41);
+
+insert into seat values(201,42);
+insert into seat values(202,42);
+insert into seat values(203,42);
+insert into seat values(204,42);
+insert into seat values(205,42);
+
+insert into seat values(206,43);
+insert into seat values(207,43);
+insert into seat values(208,43);
+insert into seat values(209,43);
+insert into seat values(210,43);
+
+insert into seat values(211,44);
+insert into seat values(212,44);
+insert into seat values(213,44);
+insert into seat values(214,44);
+insert into seat values(215,44);
+
+
+insert into customer values(1,'lsfdj','slkdfj','lskdjf','vidu996@gmail.com','123');
+
+#==============================================================
+select room.rid,room.name from room,class,train,train_type where train.tid=1 and class.clid=2 and train.tid=train_type.tid and train_type.trtpid=room.trtpid and class.clid=room.clid;
+
+
+
+select room.rid,room.name 
+from room,class,train
+where train.tid=1 and class.clid=2
+
+
+select train_type.trtpid from train_type,type,train_station,train where train_station.arival='1:12 pm' and type.name='slow' and train.tid=2 and train_type.tpid=type.tpid and train_type.trtpid=train_station.trtpid and train.tid=train_type.tid;
+
+select srid from sub_room,room where room.rid in(select room.rid from room,class,train_type where train_type.trtpid=8 and class.clid=1 and room.clid=class.clid and train_type.trtpid=room.trtpid and room.name='B') and sub_room.rid=room.rid;
+
+
+select type.name from train_type,type where train_type.tpid=type.tpid and train_type.trtpid=8;
+
+#==============================================================
+
+insert into booking values(1,300.00,1);
+insert into booking values(2,2300.00,1);
+
+insert into seat_booking values(1,166,1,'2018-01-19',5,5,'pm');
+insert into seat_booking values(2,167,1,'2018-01-19',5,5,'pm');
+insert into seat_booking values(3,168,1,'2018-01-19',5,5,'pm');
+
+insert into subroom_booking values(1,1,2,'2018-01-19',5,7,'pm');
+
+insert into seat_booking_station values(1,26);
+insert into seat_booking_station values(1,25);
+insert into seat_booking_station values(1,24);
+insert into seat_booking_station values(1,23);
+insert into seat_booking_station values(1,22);
+
+insert into seat_booking_station values(2,26);
+insert into seat_booking_station values(2,25);
+insert into seat_booking_station values(2,24);
+insert into seat_booking_station values(2,23);
+insert into seat_booking_station values(2,22);
+
+insert into seat_booking_station values(3,26);
+insert into seat_booking_station values(3,25);
+insert into seat_booking_station values(3,24);
+insert into seat_booking_station values(3,23);
+insert into seat_booking_station values(3,22);
+
+insert into subroom_booking_station values(1,26);
+insert into subroom_booking_station values(1,25);
+insert into subroom_booking_station values(1,24);
+insert into subroom_booking_station values(1,23);
+insert into subroom_booking_station values(1,22);
+insert into subroom_booking_station values(1,21);
+insert into subroom_booking_station values(1,20);
+insert into subroom_booking_station values(1,19);
+insert into subroom_booking_station values(1,18);
+insert into subroom_booking_station values(1,17);
+insert into subroom_booking_station values(1,16);
+insert into subroom_booking_station values(1,1);
+insert into subroom_booking_station values(1,2);
+insert into subroom_booking_station values(1,3);
+insert into subroom_booking_station values(1,4);
+insert into subroom_booking_station values(1,5);
+insert into subroom_booking_station values(1,6);
+insert into subroom_booking_station values(1,7);
+insert into subroom_booking_station values(1,8);
+
+
+#==================================================
+
+select subroom_booking.srbid from sub_room,booking,subroom_booking,subroom_booking_station,train_station,station where subroom_booking_station.sid=16 and subroom_booking.srbid=subroom_booking_station.srbid and sub_room.srid=subroom_booking.srid and date='2018-01-19' and start_hour between 6 and 6 and subroom_booking.am_pm='pm' and train_station.sid=station.sid group by subroom_booking.srid;
+
+select depature from train_station where trtpid=8 order by depature asc limit 1;
+
+
+select train_station.sid from train_station,station where sid between 16 and 26 and trtpid=8 and train_station.sid=station.sid;
+
+
+select arival from train_station,station where trtpid=8 and train_station.sid=station.sid and station.name='Colombo Fort';

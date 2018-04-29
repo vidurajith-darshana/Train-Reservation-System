@@ -1,0 +1,18 @@
+.recycle{
+    display: block;
+    width: 45px;
+    height: 45px;
+    background: url(../image/recyclebin.png);
+    background-size: contain;
+    margin: auto;
+}
+
+.recycle:hover{
+    cursor: pointer;
+    display: block;
+    width: 45px;
+    height: 45px;
+    background: url(../image/recyclebin-hover.png);
+    background-size: contain;
+    margin: auto;
+}
